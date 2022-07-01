@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<titile>
+		</title>
+		<link rel="stylesheet" href="registration.css">
+</head>
+<body>
+	<div class="regform">
+		<h1>Sign-up</h1>
+	</div>
+	<div class="main">
+		<form action="index.html">
+			<div id="name">
+				<h2 class="name">Name</h2>
+				<input class="firstname" type="text" name="first_name" required><br>
+				<label class="firstlabel">First Name</label>
+				<input class="lastname" type="text" name="last_name" required><br>
+				<label class="lastlabel">Last Name</label>
+			</div>
+
+			<h2 class="name">Country</h2>
+			<input class="country" type="text" name="country" required>
+
+			<h2 class="name">Email</h2>
+			<input class="email" type="text" name="email" required>
+
+			<h2 class="name">Phone</h2>
+			<input class="code" type="text" name="area_code" required>
+			<label class="area-code">Area Code</label>
+			<input class="number" type="text" name="phone" required>
+			<label class="phone">Phone Number</label>
+
+			<h2 class="name">Gender</h2>
+			<select class="option" name="Gender" required>
+				<option disabled="disabled" selected="selected">--Choose Option</option>
+				<option>Male</option>
+				<option>Female</option>
+				<option>Not Specified</option>
+			</select>
+			<br/>
+			<!-- <div class="name" id="student"> -->
+			<div class="radios">
+				<label class="radio" for="yes_no_radio">Are you a Beginner?</label>
+				<p>
+					<input class="radio clor" type="radio" >  Yes</input>
+				</p>
+				<p>
+					<input class="radio" type="radio" >  No</input>
+				</p>
+			</div>
+
+			<a href="index.html">
+				<button href="course.html" type="submit">Register</button>
+			</a>
+		</form>
+	</div>
+</body>
+</html>
